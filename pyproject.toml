@@ -1,0 +1,12 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "google-play-scraper>=1.2.7",
+    "langchain>=0.3.24",
+    "langchain-google-genai>=2.1.3",
+]
